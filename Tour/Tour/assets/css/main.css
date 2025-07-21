@@ -898,60 +898,20 @@ section,
   backdrop-filter: blur(10px);
 }
 
-.travel-hero .booking-form-wrapper .booking-form .form-title {
-  color: var(--heading-color);
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.travel-hero .booking-form-wrapper .booking-form label {
-  color: var(--heading-color);
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
-}
-
-.travel-hero .booking-form-wrapper .booking-form .form-control,
-.travel-hero .booking-form-wrapper .booking-form .form-select {
-  border: 2px solid color-mix(in srgb, var(--default-color), transparent 80%);
-  border-radius: 8px;
-  padding: 12px 15px;
-  font-size: 14px;
-  color: var(--default-color);
-  background-color: var(--surface-color);
-  transition: all 0.3s ease;
-}
-
-.travel-hero .booking-form-wrapper .booking-form .form-control:focus,
-.travel-hero .booking-form-wrapper .booking-form .form-select:focus {
-  border-color: var(--accent-color);
-  box-shadow: 0 0 0 0.2rem color-mix(in srgb, var(--accent-color), transparent 75%);
-  outline: none;
-}
-
-.travel-hero .booking-form-wrapper .booking-form .form-control::placeholder,
-.travel-hero .booking-form-wrapper .booking-form .form-select::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-}
-
-.travel-hero .booking-form-wrapper .booking-form .btn-primary {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-  color: var(--contrast-color);
-  padding: 12px 20px;
-  font-weight: 600;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-}
-
 .travel-hero .booking-form-wrapper .booking-form .btn-primary:hover {
   background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
   border-color: color-mix(in srgb, var(--accent-color), transparent 20%);
   transform: translateY(-1px);
 }
+#indexPersonPFP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px; /* or whatever fits your image */
+  border-radius: 10px;
+  margin: auto auto;
 
+}
 @media (max-width: 992px) {
   .travel-hero .hero-text {
     text-align: center;
