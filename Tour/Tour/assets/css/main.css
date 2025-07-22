@@ -181,16 +181,7 @@ h6 {
   color: var(--heading-color);
 }
 
-.header .btn-getstarted,
-.header .btn-getstarted:focus {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  font-size: 14px;
-  padding: 8px 20px;
-  margin: 0 0 0 30px;
-  border-radius: 50px;
-  transition: 0.3s;
-}
+
 
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
@@ -214,9 +205,8 @@ h6 {
   }
 
   .header .btn-getstarted {
-    order: 2;
-    margin: 0 10px 0 0;
-    padding: 6px 15px;
+    
+    visibility: hidden;
   }
 
   .header .navmenu {
