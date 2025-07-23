@@ -22,11 +22,11 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #1e2305; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #1c4b56; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #008cad; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --background-color: #131414; /* Background color for the entire website, including individual sections */
+  --default-color: #FFFDF6; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #53deff; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #4bc4e2; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #181a1b; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -2374,7 +2374,7 @@ section,
 @media (max-width: 768px) {
   .travel-about .hero-image .floating-stats {
     bottom: -20px;
-    right: -20px;
+    right: 50%;
     gap: 0.5rem;
   }
 }
@@ -2386,6 +2386,8 @@ section,
   text-align: center;
   box-shadow: 0 10px 30px color-mix(in srgb, var(--default-color), transparent 85%);
   min-width: 80px;
+  
+  min-width: 0;
 }
 
 @media (max-width: 768px) {
@@ -3850,6 +3852,8 @@ section,
   margin-bottom: 1rem;
   display: block;
 }
+
+
 
 .travel-tours .special-offers .offer-banner .offer-content .btn-accent {
   background-color: var(--contrast-color);
@@ -8430,6 +8434,8 @@ section,
     justify-content: center;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Starter Section Section
